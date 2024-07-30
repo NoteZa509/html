@@ -1,0 +1,42 @@
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+    text-align: center;
+}
+div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
+
+.divbg1{
+    
+    background-color:#3cff00
+}
+
+.divbg2{
+    background-color:#c91111
+}
+
+.divbg3{
+    background-color:#3449ff
+}
+
+h1 {
+    color: #daadad;
+}
+
+h2 {
+    color: #e0f004;
+}
+
+.textGreen{
+    color: #00ff55;
+}
+
+.textBlue{
+    color: blue;
+}
+
+#textPink{
+    color: pink;
+}
