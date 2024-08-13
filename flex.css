@@ -1,0 +1,67 @@
+.apple{
+    order: 5;
+}
+
+.melon{
+    order: 3;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    height: 400px;
+    border:2px solid rgb(0, 0, 0);
+    /*flex-direction: column; */
+}
+.container2{
+    display: flex;
+    border:2px solid rgb(0, 0, 0);
+    align-items: baseline;
+}
+
+.items{
+    width: auto;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: blue;
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right{
+    background-color: rgb(255, 72, 179);
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-3{
+    background-color: rgb(93, 218, 114);
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-4{
+    background-color: rgb(255, 76, 76);
+    padding: 10px;
+    flex: 50%;
+}
+/* Responsive layout*/
+@media (max-width:500px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
